@@ -55,9 +55,11 @@ try {
       $result[work]
     );
   }
-} catch(PDOException $e) {
+
+} catch(PDOException $s) {
   echo $e->getMessage() . '<br>';
   exit;
 
 }
+
 ?>
